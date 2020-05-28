@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh './main.sh'
+                sh './main.sh 150'
             }
         }
     }
