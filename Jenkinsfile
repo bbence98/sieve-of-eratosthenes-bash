@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'sieve:v1' } }
+    agent any
     stages {
         stage('build') {
             steps {
